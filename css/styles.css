@@ -102,7 +102,13 @@ body {
 .navigation {
   margin-right: 371px;
 }
-
+.container-for-contacts {
+  display: flex;
+}
+.header-icon-1 {
+  width: 16px;
+  height: 12px;
+}
 .contact-links {
   text-decoration: none;
   font-weight: 500;
@@ -119,6 +125,7 @@ body {
 .contact-links:focus {
   color: var(--second-main-text-color);
 }
+
 .contact-links-bottom {
   text-decoration: none;
   font-weight: 500;
