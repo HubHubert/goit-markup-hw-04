@@ -225,15 +225,14 @@ body {
   margin-bottom: 30px;
   padding: 0px;
 }
-.rectangle-1 {
+.rectangle {
   width: 270px;
   height: 120px;
   background-color: var(--team-container-color-background);
-  margin-right: 30px;
   border-radius: 4px;
 }
-.rectangle-1:hover {
-  color: #2196f3;
+.rectangle:not(:last-child) {
+  margin-right: 30px;
 }
 
 .rectangle-1-item {
@@ -241,36 +240,19 @@ body {
   width: 65.32px;
   height: 70px;
 }
-.rectangle-2 {
-  width: 270px;
-  height: 120px;
-  background-color: var(--team-container-color-background);
-  margin-right: 30px;
-  border-radius: 4px;
-}
+
 .rectangle-2-item {
   margin-top: 25px;
   width: 66.96px;
   height: 70px;
 }
-.rectangle-3 {
-  width: 270px;
-  height: 120px;
-  background-color: var(--team-container-color-background);
-  margin-right: 30px;
-  border-radius: 4px;
-}
+
 .rectangle-3-item {
   margin-top: 33.2px;
   width: 70px;
   height: 53.69px;
 }
-.rectangle-4 {
-  width: 270px;
-  height: 120px;
-  background-color: var(--team-container-color-background);
-  border-radius: 4px;
-}
+
 .rectangle-4-item {
   margin-top: 30.23px;
   width: 54.83px;
@@ -380,7 +362,7 @@ body {
 
 .fig {
   background: var(--acent-color-for-containers);
-  height: 368px;
+  height: 428px;
   margin: 0px;
 }
 
@@ -397,6 +379,98 @@ body {
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--third-main-text-color);
+}
+.list-for-social-icons {
+  list-style-type: none;
+  display: flex;
+  width: 206px;
+  height: 56px;
+  padding: 0px;
+  margin: auto;
+  margin-top: 16px;
+}
+.social-icon {
+  width: 44px;
+  height: 44px;
+}
+.social-icon:not(:last-child) {
+  margin-right: 10px;
+}
+.instagram-icon {
+  width: 20px;
+  height: 20px;
+  margin: auto;
+  margin-top: 12px;
+}
+.twitter-icon {
+  width: 20px;
+  height: 20px;
+  margin: auto;
+  margin-top: 12px;
+}
+.facebook-icon {
+  width: 20px;
+  height: 20px;
+  margin: auto;
+  margin-top: 12px;
+}
+.linkedin-icon {
+  width: 20px;
+  height: 20px;
+  margin: auto;
+  margin-top: 12px;
+}
+.our-customers {
+  width: 100%;
+  background-color: var(--acent-color-for-containers);
+  margin-top: 94px;
+}
+.our-customers-h {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+  margin: auto;
+}
+.customers-rectangles-list {
+  list-style-type: none;
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 94px;
+  padding: 0px;
+}
+.customer-rectangle {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+}
+.customer-rectangle:not(:last-child) {
+  margin-right: 30px;
+}
+.first-customer {
+  width: 170px;
+  height: 92px;
+}
+.second-customer {
+  width: 170px;
+  height: 92px;
+}
+.third-customer {
+  width: 170px;
+  height: 92px;
+}
+.fourth-customer {
+  width: 170px;
+  height: 92px;
+}
+.fifth-customer {
+  width: 170px;
+  height: 92px;
+}
+.sixth-customer {
+  width: 170px;
+  height: 92px;
 }
 .last-container-first-page {
   background: var(--acent-color-for-containers-two);
