@@ -100,15 +100,25 @@ body {
   color: var(--second-main-text-color);
 }
 .navigation {
-  margin-right: 371px;
+  margin-right: 345px;
 }
 .container-for-contacts {
   display: flex;
 }
 .header-icon-1 {
+  padding: 0px;
+  margin-right: 10px;
   width: 16px;
   height: 12px;
 }
+
+.header-icon-2 {
+  padding: 0px;
+  margin-right: 10px;
+  width: 10px;
+  height: 16px;
+}
+
 .contact-links {
   text-decoration: none;
   font-weight: 500;
@@ -119,10 +129,23 @@ body {
   width: 135px;
 }
 .contact-links:not(:last-child) {
-  margin-right: 50px;
+  margin-right: 30px;
 }
 .contact-links:hover,
 .contact-links:focus {
+  color: var(--second-main-text-color);
+}
+.contact-links-2 {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--third-main-text-color);
+  width: 110px;
+}
+.contact-links-2:hover,
+.contact-links-2:focus {
   color: var(--second-main-text-color);
 }
 
@@ -195,6 +218,65 @@ body {
   letter-spacing: 0.03em;
   color: var(--acent-color-text);
 }
+.list-for-rectangles {
+  list-style-type: none;
+  display: flex;
+  margin-top: 94px;
+  margin-bottom: 30px;
+  padding: 0px;
+}
+.rectangle-1 {
+  width: 270px;
+  height: 120px;
+  background-color: var(--team-container-color-background);
+  margin-right: 30px;
+  border-radius: 4px;
+}
+.rectangle-1:hover {
+  color: #2196f3;
+}
+
+.rectangle-1-item {
+  margin-top: 25px;
+  width: 65.32px;
+  height: 70px;
+}
+.rectangle-2 {
+  width: 270px;
+  height: 120px;
+  background-color: var(--team-container-color-background);
+  margin-right: 30px;
+  border-radius: 4px;
+}
+.rectangle-2-item {
+  margin-top: 25px;
+  width: 66.96px;
+  height: 70px;
+}
+.rectangle-3 {
+  width: 270px;
+  height: 120px;
+  background-color: var(--team-container-color-background);
+  margin-right: 30px;
+  border-radius: 4px;
+}
+.rectangle-3-item {
+  margin-top: 33.2px;
+  width: 70px;
+  height: 53.69px;
+}
+.rectangle-4 {
+  width: 270px;
+  height: 120px;
+  background-color: var(--team-container-color-background);
+  border-radius: 4px;
+}
+.rectangle-4-item {
+  margin-top: 30.23px;
+  width: 54.83px;
+  height: 60.66px;
+}
+
 .list-for-lorems-items {
   width: 1200px;
   margin-top: 0px;
@@ -207,7 +289,7 @@ body {
   height: fit-content;
   display: flex;
   margin: auto;
-  margin-top: 94px;
+  margin-top: 0px;
 }
 .lorem-heading {
   font-weight: 700;
