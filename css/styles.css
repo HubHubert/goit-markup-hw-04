@@ -128,6 +128,7 @@ body {
   color: var(--third-main-text-color);
   width: 135px;
 }
+
 .contact-links:not(:last-child) {
   margin-right: 30px;
 }
@@ -392,6 +393,13 @@ body {
 .social-icon {
   width: 44px;
   height: 44px;
+  border-radius: 50%;
+  padding: 12px;
+  cursor: pointer;
+}
+.social-icon:hover,
+.social-icon:focus {
+  background-color: var(--second-main-text-color);
 }
 .social-icon:not(:last-child) {
   margin-right: 10px;
@@ -400,25 +408,22 @@ body {
   width: 20px;
   height: 20px;
   margin: auto;
-  margin-top: 12px;
 }
+
 .twitter-icon {
   width: 20px;
   height: 20px;
   margin: auto;
-  margin-top: 12px;
 }
 .facebook-icon {
   width: 20px;
   height: 20px;
   margin: auto;
-  margin-top: 12px;
 }
 .linkedin-icon {
   width: 20px;
   height: 20px;
   margin: auto;
-  margin-top: 12px;
 }
 .our-customers {
   width: 100%;
@@ -444,6 +449,7 @@ body {
   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;
+  cursor: pointer;
 }
 .customer-rectangle:not(:last-child) {
   margin-right: 30px;
