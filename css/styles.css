@@ -178,6 +178,7 @@ body {
     url(../images/backimg.jpg);
   background-position: center;
   background-repeat: no-repeat;
+  background-size: 100% 600px;
   width: 100%;
   height: 600px;
   display: flex;
