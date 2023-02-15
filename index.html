@@ -40,17 +40,19 @@
               </li>
             </ul>
           </nav>
-          <svg class="header-icon-1">
-            <use href="images/icons.svg#icon-envelope"></use>
-          </svg>
+
           <div class="container-for-contacts">
             <a class="contact-links" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            ><svg class="header-icon-2">
-              <use href="images/icons.svg#icon-smartphone"></use>
-            </svg>
+              ><svg class="envelope">
+                <use href="./images/icons.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com</a
+            >
             <a class="contact-links-2" href="tel:+48111111111"
-              >+48 111 111 111</a
+              ><svg class="smartphone">
+                <use href="./images/icons.svg#icon-smartphone"></use>
+              </svg>
+              +48 111 111 111</a
             >
           </div>
         </section>
@@ -345,29 +347,58 @@
     <footer class="last-container-first-page">
       <section class="footer-section">
         <div class="container">
-          <div class="container-footer-items">
-            <a class="bottom-logotype" href="./index.html"
-              ><span class="piece-of-logotype">Web</span
-              ><span class="studio-piece-logotype">Studio</span>
-            </a>
-            <address class="company-data">
-              <ul class="footer-list">
-                <li class="footer-list-item">
-                  <p class="location">m. Warszawa, Aleje Jerozolimskie 21</p>
-                </li>
+          <div class="container-footer">
+            <div class="container-footer-items">
+              <a class="bottom-logotype" href="./index.html"
+                ><span class="piece-of-logotype">Web</span
+                ><span class="studio-piece-logotype">Studio</span>
+              </a>
+              <address class="company-data">
+                <ul class="footer-list">
+                  <li class="footer-list-item">
+                    <p class="location">m. Warszawa, Aleje Jerozolimskie 21</p>
+                  </li>
 
-                <li class="footer-list-item">
-                  <a class="contact-links-bottom" href="mailto:info@example.com"
-                    >info@example.com</a
-                  ><br />
+                  <li class="footer-list-item">
+                    <a
+                      class="contact-links-bottom"
+                      href="mailto:info@example.com"
+                      >info@example.com</a
+                    ><br />
+                  </li>
+                  <li class="footer-list-item">
+                    <a class="contact-links-bottom" href="tel:+48111111111"
+                      >+48 111 111 111</a
+                    >
+                  </li>
+                </ul>
+              </address>
+            </div>
+            <div class="join-us-container">
+              <h4 class="footer-h">Dołącz do nas</h4>
+              <ul class="list-bottom-icons">
+                <li class="bottom-icons">
+                  <svg class="instagram-icon-bottom">
+                    <use href="images/icons.svg#icon-instagram-2"></use>
+                  </svg>
                 </li>
-                <li class="footer-list-item">
-                  <a class="contact-links-bottom" href="tel:+48111111111"
-                    >+48 111 111 111</a
-                  >
+                <li class="bottom-icons">
+                  <svg class="twitter-icon-bottom">
+                    <use href="images/icons.svg#icon-twitter-1"></use>
+                  </svg>
+                </li>
+                <li class="bottom-icons">
+                  <svg class="facebook-icon-bottom">
+                    <use href="images/icons.svg#icon-facebook-1"></use>
+                  </svg>
+                </li>
+                <li class="bottom-icons">
+                  <svg class="linkedin-icon-bottom">
+                    <use href="images/icons.svg#icon-linkedin-1"></use>
+                  </svg>
                 </li>
               </ul>
-            </address>
+            </div>
           </div>
         </div>
       </section>
